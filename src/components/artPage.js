@@ -1,0 +1,64 @@
+
+import React from 'react';
+
+
+class Art extends React.Component {
+
+
+  render() {
+
+    return (
+      <div>
+         <main className="flex_container-content">
+    <div className="flex_item_left-content">
+      <div className="page__header">
+        <h1>Art Gallery</h1>
+        <p>What I am all about</p>
+      </div>
+
+    </div>
+   
+    <div className="flex_item_right-content">
+   
+      <div className="row">
+        <div className="column ">
+          <img src="../images/lightBox/photo1.jpg" alt="andrey art work" />
+          <img src="../images/lightBox/dark_wood.jpg" alt="andrey art work"  />
+          <img src="../images/lightBox/triangle_work.jpg" alt="andrey art work" />
+          <img  src="../images/lightBox/gg_work.png" alt="andrey art work" />
+          <img src="../images/lightBox/gg_blue.jpg" alt="andrey art work" />
+          <img  src="../images/lightBox/space_work.jpg" alt="andrey art work" />
+        </div>
+        <div className="column">
+          <img src="../images/lightBox/photo3.jpg" alt="andrey art work"/>
+          <img src="../images/lightBox/bike_work.jpg"  alt="andrey art work"/>
+          <img  src="../images/lightBox/sea_work.jpg" alt="andrey art work"/>
+          <img  src="../images/lightBox/minimal_workl.jpg" alt="andrey art work" />
+          <img  src="../images/lightBox/kar_work.jpg" alt="andrey art work"/>
+
+        </div>
+        <div className="column">
+          <img src="../images/lightBox/photo5.jpg" alt="andrey art work" />
+          <img src="../images/lightBox/photo4.jpg" alt="andrey art work" />
+          <img  src="../images/lightBox/dust_work.jpg" alt="andrey art work" />
+          <img  src="../images/lightBox/hexagon_work.jpg" alt="andrey art work" />
+          <img  src="../images/lightBox/radio_work.jpg" alt="andrey art work" />
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+  </main>
+      
+      </div>
+    );
+  }
+}
+
+export default Art;
