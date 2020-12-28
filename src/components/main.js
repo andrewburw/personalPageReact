@@ -38,7 +38,7 @@ this.setState({openNav:false})
 
 
     <div className="logo">
-      <p>A n d r e w</p>
+    <p>A n d r e w</p>
     </div>
 
       <div className="nav-burger__menu" style={{"cursor":"pointer"}} onClick={this.openMenu}>

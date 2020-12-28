@@ -45,7 +45,7 @@ class Contacts extends React.Component {
             </div>
            <div className="contacts__right-two">
              <h1>LinkedIn</h1>
-             <a href="1">wwwlinkedin</a>
+             <a href="https://www.linkedin.com/in/andrejs-burackovs-3219641b8/">linkedin.com</a>
 
            </div>
 

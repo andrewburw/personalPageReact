@@ -53,7 +53,7 @@ class Main extends React.Component {
 
       </div>
        <div className="old__version">
-         <a href="1">Old version.</a>
+         <a href="https://andrewburw.github.io/personal-page/">Old version.</a>
        </div>
 
     </main>

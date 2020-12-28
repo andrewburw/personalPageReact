@@ -62,11 +62,14 @@
 }
 
 .work__container {
-  padding-left: 145px;
+  padding-left: 20px;
+  width: 100%;
+ 
 }
 
 .work__box {
   padding: 30px;
+  display: flex;
 }
 /* ************************** CONTACTS PAGE **************** */
 .contacts__container {
@@ -181,14 +184,19 @@ flex-wrap: wrap;
 .work__box {
   padding-bottom:  40px;
   float: right;
-  display: inline-block;
+ 
 
 }
+
+.picture {
+  text-align: center;
+}
 .work__text{
-  padding-left: 140px;
+  padding-left: 20px;
 }
 .work__title{
-    padding-left: 140px;
+    padding-left: 20px;
+    text-align: center;
 
 }
 /* ********************* CONTACTS PAGE **************** */
@@ -274,3 +282,4 @@ flex-wrap: wrap;
   .row {
   flex-wrap: wrap;
   }
+}

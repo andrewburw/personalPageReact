@@ -21,10 +21,11 @@ class About extends React.Component {
 
 
 
-      <div className="author__image"></div>
+      <div className="author__image"><img src="/images/myself.jpg " height="85" width="85" alt="Andrew Burw" /></div>
 
       <div className="about__info container">
-       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+       <p>Hi! A'm Andrew Results-oriented  Fullstack Developer dedicated to creating and optimizing interactive, user-friendly, and feature-rich websites. Leverage analytical skills and strong attention to detail in order to deliver original and efficient web solutions, 
+         provide technical knowledge and expertise, build new websites from start to finish.</p>
         <br />
         <div className="about__list">
 

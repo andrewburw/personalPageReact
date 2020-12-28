@@ -234,19 +234,12 @@ body {
 
 }
 
-
-
-.work__picture {
-  float: left;
-  width: 115px;
-  height: 115px;
-  background: #C4C4C4;
-
+.work__view {
+  padding-top: 20px;
 }
 
 
-
-.work__title {
+  .work__title {
 
   padding-top: 10px;
   font-family: 'Open Sans', sans-serif;
@@ -567,4 +560,20 @@ float: right;
 
 .modal__right-list>li:last-child {
   padding-top: 60px;
+}
+/* ******************************* TOOOL TIP ****************************** */
+
+.proggres__info {
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  color: #9A9494;
+  padding-top: 20px;
+  display: none;
+}
+
+.progress__box:hover .proggres__info{
+
+  display: block;
 }
