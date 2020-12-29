@@ -63,8 +63,6 @@ class Contacts extends React.Component {
 
 
 
-
-
   </main>
     
     );

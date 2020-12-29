@@ -68,6 +68,10 @@ this.setState({openNav:false})
       </Switch>
       
      
+  <div className="footer">
+         <p>® 2020 Andrew. All Rights Reserved.</p>
+      </div>
+
       
       </div>
     );

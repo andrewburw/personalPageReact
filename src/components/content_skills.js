@@ -49,21 +49,15 @@ const contentMySkilzz = [
     color: 'is-success'
   },
   {
-    name: 'Python',
-    precentage: 20,
-    description: 'Coursera 5 courses.',
-
-  },
-  {
     name: 'Git',
-    precentage: 20,
+    precentage: 40,
     description: 'Need more practice to work in team and large projects.',
     color: 'is-black'
   },
   {
     name: 'FrameWorks',
     precentage: 80,
-    description: 'Bootstrap, Bulma, Jquery,D3 and more...'
+    description: 'Bootstrap, Bulma, Jquery,D3,Lifletjs'
   },
   {
     name: 'Excel',
@@ -100,14 +94,25 @@ const contentMySkilzz = [
     description: 'Creating a sql and exel database reports.'
   },
   {
-    name: 'AdobeIllustrator',
+    name: 'Python',
     precentage: 20,
+    description: 'Coursera 5 courses.',
+
+  },
+  {
+    name: 'AdobeIllustrator',
+    precentage: 40,
     description: 'Small graphic illustrations.'
   },
   {
     name: 'Figma',
     precentage: 80,
     description: 'Figma => HTML/CSS.'
+  },
+  {
+    name: 'Linux',
+    precentage: 80,
+    description: 'User of Linux while coding.'
   }
 
 ];

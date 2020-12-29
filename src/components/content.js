@@ -7,7 +7,7 @@ const contentMyExper = [
        projectName: 'Trip Map',
        projectSubTitle: 'Web Project.',
        pictSRC: '/images/works_img/trip_map.png',
-       projectDescription: 'Fullstack project - App for drawing maps of your adventures',
+       projectDescription: 'Fullstack project - App for drawing maps of your adventures.You can draw,comment and share your trip route.',
        technologyDescription:'M.E.R.N',
        technologyList: ['NodeJS','MongoDB','Express','ReactJS','Bulma Framework','Liflet.js'],
        creationDescription:`My biggest and most difficult project at the moment.`,
@@ -56,6 +56,23 @@ const contentMyExper = [
              progress: 90
 
         },
+        
+      {   id: 8,
+          modalTitle: 'Web Project',
+          projectName: 'Product SKU page',
+          projectSubTitle: 'Web Project.',
+          pictSRC: '/images/works_img/products.png',
+          projectDescription: 'Product SKU page - You can add or edit difrent products.',
+          technologyDescription:'The goal of the project is write a site with no css frameworks; ',
+          technologyList: ['PHP','MariaDB','Open server'],
+          creationDescription:`Project writed on plain PHP with OPP concept.`,
+          links: {
+            github: 'https://github.com/andrewburw/test_task',
+            projectSite: '/'
+          },
+          progress: 99
+
+     },
        {   id: 4,
            modalTitle: 'Web Project',
            projectName: 'Employe Work Hours',
@@ -76,6 +93,23 @@ const contentMyExper = [
            progress: 99
 
       },
+      {   id: 8,
+          modalTitle: 'Web Project',
+          projectName: 'This Portfolio site',
+          projectSubTitle: 'Web Project.',
+          pictSRC: '/images/works_img/this-site.png',
+          projectDescription: 'Portfolio Static Site - This site is about me and my achievements.',
+          technologyDescription:'The goal of the project is write a site with no css frameworks; ',
+          technologyList: ['Vannila css','ReactJS'],
+          creationDescription:`The goal of the project is write a site with no css frameworks.`,
+          links: {
+            github: 'https://github.com/andrewburw/personalPageReact',
+            projectSite: '/'
+          },
+          progress: 99
+
+     },
+  
       {   id: 5,
           modalTitle: 'Web Project',
           projectName: 'Password Generator',
