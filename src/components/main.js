@@ -7,6 +7,7 @@ import ArtPage from './artPage';
 import ContactsPage from './contactsPage';
 import Menu from './menu';
 import {
+ 
   
     Switch,
     Route
@@ -58,7 +59,7 @@ this.setState({openNav:false})
 
   </div>
 
-      
+ 
       <Switch>
         <Route  path="/main/about" exact component={AboutPage} />
         <Route  path="/main/skills" component={SkilzzPage} />
@@ -66,7 +67,7 @@ this.setState({openNav:false})
         <Route  path="/main/art" component={ArtPage} />
         <Route  path="/main/contacts" component={ContactsPage} />
       </Switch>
-      
+   
      
   <div className="footer">
          <p>® 2020 Andrew. All Rights Reserved.</p>

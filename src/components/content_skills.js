@@ -19,6 +19,12 @@ const contentMySkilzz = [
     color: 'is-info'
   },
   {
+    name: 'Scss',
+    precentage: 20,
+    description: 'Gulp environment.',
+    color: 'is-info'
+  },
+  {
     name: 'MongoDB',
     precentage: 40,
     description: 'My main DB.Need more practice.',
@@ -95,7 +101,7 @@ const contentMySkilzz = [
   },
   {
     name: 'Python',
-    precentage: 20,
+    precentage: 10,
     description: 'Coursera 5 courses.',
 
   },
@@ -106,13 +112,13 @@ const contentMySkilzz = [
   },
   {
     name: 'Figma',
-    precentage: 80,
-    description: 'Figma => HTML/CSS.'
+    precentage: 60,
+    description: 'Figma  page development and Figma => HTML/CSS.'
   },
   {
     name: 'Linux',
-    precentage: 80,
-    description: 'User of Linux while coding.'
+    precentage: 20,
+    description: 'Linux user while coding.'
   }
 
 ];

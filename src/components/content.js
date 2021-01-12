@@ -1,12 +1,27 @@
 
 
 const contentMyExper = [
+  {   id: 1,
+    modalTitle: 'Web Project',
+    projectName: 'Planify',
+    projectSubTitle: 'Web Project.',
+    pictSRC: '/personalpage/images/works_img/planify.png',
+    projectDescription: 'Fullstack project - More info soon...',
+    technologyDescription:'M.E.R.N',
+    technologyList: ['Figma','Laravel','React','Gulp','Scss'],
+    creationDescription:`My biggest and most difficult project at the moment.`,
+    links: {
+      github: '/',
+      projectSite: '/'
+    },
+    progress: 90
 
-   {   id: 1,
+  },
+   {   id: 10,
        modalTitle: 'Web Project',
        projectName: 'Trip Map',
        projectSubTitle: 'Web Project.',
-       pictSRC: '/images/works_img/trip_map.png',
+       pictSRC: '/personalpage/images/works_img/trip_map.png',
        projectDescription: 'Fullstack project - App for drawing maps of your adventures.You can draw,comment and share your trip route.',
        technologyDescription:'M.E.R.N',
        technologyList: ['NodeJS','MongoDB','Express','ReactJS','Bulma Framework','Liflet.js'],
@@ -23,11 +38,11 @@ const contentMyExper = [
            modalTitle: 'Web Project',
            projectName: 'Tank App',
            projectSubTitle: 'Web Project.',
-           pictSRC: '/images/works_img/tank_app.png',
+           pictSRC: '/personalpage/images/works_img/tank_app.png',
            projectDescription: 'Full Stack apllication -  Tank App is comunity of low-prices.Do not refuel at the highest price! Use the map to find the best gas station prices near you. .',
            technologyDescription:'I chose this development environment (M.E.R.N) as my main area of development as a developer. For more effective training, it was necessary to develop a more complex application.',
            technologyList: ['NodeJS','MongoDB','Express','ReactJS','Bootstrap framework','Liflet js'],
-           creationDescription:`In implementing this project, I explored a lot of new interesting information as developer. <blockquote>What I liked in this project: from a white sheet and ideas to a really working service.</blockquote>
+           creationDescription:`In implementing this project, I explored a lot of new interesting information as developer. What I liked in this project: from a white sheet and ideas to a really working service.
 
                       `,
            links: {
@@ -41,7 +56,7 @@ const contentMyExper = [
              modalTitle: 'Web Project',
              projectName: 'Guitar Teacher',
              projectSubTitle: 'Web Project.',
-             pictSRC: '/images/works_img/note_project.png',
+             pictSRC: '/personalpage/images/works_img/note_project.png',
              projectDescription: 'Static aplication - for learning notes on the guitar fretboard. Studying gammas and visualizing them on a standard & non-standard neck.',
              technologyDescription:'I chose SVG graphics technology to implement this idea. The control of the graphical interface occurs through the library  D3  .',
              technologyList: ['D3 framework','Jquery framework','SVG Technology','Bootstrap framework'],
@@ -61,7 +76,7 @@ const contentMyExper = [
           modalTitle: 'Web Project',
           projectName: 'Product SKU page',
           projectSubTitle: 'Web Project.',
-          pictSRC: '/images/works_img/products.png',
+          pictSRC: '/personalpage/images/works_img/products.png',
           projectDescription: 'Product SKU page - You can add or edit difrent products.',
           technologyDescription:'The goal of the project is write a site with no css frameworks; ',
           technologyList: ['PHP','MariaDB','Open server'],
@@ -77,7 +92,7 @@ const contentMyExper = [
            modalTitle: 'Web Project',
            projectName: 'Employe Work Hours',
            projectSubTitle: 'Web Project.',
-           pictSRC: '/images/works_img/timing_project.png',
+           pictSRC: '/personalpage/images/works_img/timing_project.png',
            projectDescription: 'Fullstack project - a really working project from my last work. The goal of the project is to view the set hours of work with the ability to watch the archive of months.',
            technologyDescription:'I chose from the available development tools.',
            technologyList: ['PHP','Jquery framework','PostGress(SQL)','Bootstrap framework'],
@@ -93,11 +108,11 @@ const contentMyExper = [
            progress: 99
 
       },
-      {   id: 8,
+      {   id: 9,
           modalTitle: 'Web Project',
           projectName: 'This Portfolio site',
           projectSubTitle: 'Web Project.',
-          pictSRC: '/images/works_img/this-site.png',
+          pictSRC: '/personalpage/images/works_img/this-site.png',
           projectDescription: 'Portfolio Static Site - This site is about me and my achievements.',
           technologyDescription:'The goal of the project is write a site with no css frameworks; ',
           technologyList: ['Vannila css','ReactJS'],
@@ -114,7 +129,7 @@ const contentMyExper = [
           modalTitle: 'Web Project',
           projectName: 'Password Generator',
           projectSubTitle: 'Web Project.',
-          pictSRC: '/images/works_img/pass_gen.png',
+          pictSRC: '/personalpage/images/works_img/pass_gen.png',
           projectDescription: 'Password generator static site - This site is for quick pass generation.',
           technologyDescription:'The goal of the project is write a site for pass generation for own use; ',
           technologyList: ['Vannila JS','Bootstrap'],
@@ -131,7 +146,7 @@ const contentMyExper = [
            modalTitle: 'Web Project',
            projectName: 'Patterns',
            projectSubTitle: 'Web Project.',
-           pictSRC: '/images/works_img/patterns.png',
+           pictSRC: '/personalpage/images/works_img/patterns.png',
            projectDescription: 'JS Static Visualization - just visualization.Display pattern by "Vannila JS"',
            technologyDescription:'The goal of the project is to understand how the Jquery works. To write my own library on Vannila JS.',
            technologyList: ['Vannila JS'],
@@ -150,7 +165,7 @@ const contentMyExper = [
            modalTitle: 'Web Project',
            projectName: 'Portfolio Site',
            projectSubTitle: 'Web Project.',
-           pictSRC: '/images/works_img/this_site.png',
+           pictSRC: '/personalpage/images/works_img/this_site.png',
            projectDescription: 'Portfolio Static Site - This site is about me and my achievements.',
            technologyDescription:'The goal of the project is write a site on bulma framework; create a modular system of modals; use only vanilla js.',
            technologyList: ['Vannila JS','Bulma','ab_lib.js','Google Firebase'],

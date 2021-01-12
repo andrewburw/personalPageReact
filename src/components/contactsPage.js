@@ -53,7 +53,7 @@ class Contacts extends React.Component {
 
       </div>
       <div className="sign">
-        <img src="/images/sign.png" alt="ab_sign" />
+        <img src="/personalpage/images/sign.png" alt="ab_sign" />
 
       </div>
 

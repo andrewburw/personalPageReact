@@ -21,8 +21,8 @@ class Skilzz extends React.Component {
     <div className="flex_item_right-content flex_item_right_pdd20px">
 
       <div className="about__info about__info-0px container ">
-        <p>I have two years of experience developing and supporting small applications (logging systems) in
-           the environment of Libre Base & PostgreSQL database as my main job. There are also many projects as a hobby for 
+        <p>I have three years of experience developing and supporting small applications (logging systems) in
+           the environment of Libre Base & PostgreSQL database as my main job. There are also many projects  in 
            web technologies.In below or right section is quick overview of my main technical skill sets and technologies I use.
           Want to find out more about my expirience? Check out my project portfolio.</p>
         <br />
