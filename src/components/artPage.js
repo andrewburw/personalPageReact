@@ -21,7 +21,7 @@ class Art extends React.Component {
     return (
       <div>
         {this.state.showModal ? <ImgModal closeModal={()=> this.setState({showModal:false})} src={this.state.imgSrc} />: ''}
-         <main className="flex_container-content">
+         <main className="flex_container-content fadeInfaster">
     <div className="flex_item_left-content">
       <div className="page__header">
         <h1>Art Gallery</h1>

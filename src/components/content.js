@@ -7,14 +7,14 @@ const contentMyExper = [
     projectSubTitle: 'Web Project.',
     pictSRC: '/personalpage/images/works_img/planify.png',
     projectDescription: 'Fullstack project - More info soon...',
-    technologyDescription:'M.E.R.N',
-    technologyList: ['Figma','Laravel','React','Gulp','Scss'],
+    technologyDescription:'none',
+    technologyList: ['Figma','Laravel','React','Gulp','Scss','React hooks','PHP',],
     creationDescription:`My biggest and most difficult project at the moment.`,
     links: {
-      github: '/',
+      github: 'https://github.com/andrewburw/planify',
       projectSite: '/'
     },
-    progress: 90
+    progress: 20
 
   },
    {   id: 10,

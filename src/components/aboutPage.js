@@ -8,7 +8,7 @@ class About extends React.Component {
   render() {
 
     return (
-      <main className="flex_container-content">
+      <main className="flex_container-content fadeInSlow ">
         <div className="flex_item_left-content">
       <div className="page__header">
         <h1>About Me</h1>

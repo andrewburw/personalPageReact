@@ -6,6 +6,7 @@ import PortfolioPage from './portfolioPage';
 import ArtPage from './artPage';
 import ContactsPage from './contactsPage';
 import Menu from './menu';
+import useProgressiveImage from './hooks/progressiveImg'
 import {
  
   
@@ -14,7 +15,17 @@ import {
   } from "react-router-dom";
 
 
-class Main extends React.Component {
+ const Main  = () => {
+// ************************ /\ ****************************
+
+
+  const src = useProgressiveImage({
+    src:
+      '../images/bg-cover2.jpg',
+    fallbackSrc:
+      '../images/bg-cover2-min.jpg',
+  });
+  /* 
     state = {
         openNav : false
      }
@@ -28,12 +39,17 @@ closeMenu = () => {
 
 this.setState({openNav:false})
 }
+*/
+    
 
-  render() {
+//    <Menu show={this.state.openNav} closeMenu={this.closeMenu} />
+//      <div className="nav-burger__menu" style={{"cursor":"pointer"}} onClick={this.openMenu}>
+ 
+// crutches 
 
-    return (
+return (
       <div>
-          <Menu show={this.state.openNav} closeMenu={this.closeMenu} />
+     
              <nav className="nav">
        <div className="nav__menu container">
 
@@ -42,7 +58,7 @@ this.setState({openNav:false})
     <p>A n d r e w</p>
     </div>
 
-      <div className="nav-burger__menu" style={{"cursor":"pointer"}} onClick={this.openMenu}>
+      <div className="nav-burger__menu" style={{"cursor":"pointer"}} >
         <div className="burger__line"></div>
         <div className="burger__line"></div>
         <div className="burger__line"></div>
@@ -54,9 +70,11 @@ this.setState({openNav:false})
 </nav>
 
 <div className="background__image container">
-    <div className="imagin">
-    </div>
-
+   
+<div className={src === '../images/bg-cover2-min.jpg' ? 'imagin thumb':'imagin full '} 
+style={{'backgroundImage': 'url("../images/bg-cover2.jpg")'}} 
+src={src} > 
+</div>
   </div>
 
  
@@ -77,6 +95,8 @@ this.setState({openNav:false})
       </div>
     );
   }
-}
+
 
 export default Main;
+
+

@@ -24,7 +24,7 @@ showWork = (e) => {
    
     return (
     
-<main className="flex_container-content">
+<main className="flex_container-content fadeInSlow ">
     <div className="flex_item_left-content">
       <div className="page__header">
         <h1>Portfolio</h1>
@@ -51,7 +51,7 @@ showWork = (e) => {
 
 return  (
  
-  <div className="work__box" key={i}>
+  <div className="work__box" key={i} >
             <div className="picture">
               <img src={item['pictSRC']} height="117" width="117" alt={item['projectName']} />
             </div>

@@ -12,7 +12,7 @@ class PortfolioWork extends React.Component {
     
     return (
     
-          <div  className="modal" >
+          <div  className="modal fadeInfaster">
 
 
 <div className="modal-content">

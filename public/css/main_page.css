@@ -11,6 +11,19 @@ body {
    -webkit-animation: fadein 2s; /* Safari and Chrome */
    -o-animation: fadein 2s; /* Opera */
 }
+.fadeInSlow {
+  -moz-animation: fadein 2s; /* Firefox */
+   -webkit-animation: fadein 2s; /* Safari and Chrome */
+   -o-animation: fadein 2s; /* Opera */
+
+}
+
+.fadeInfaster {
+  -moz-animation: fadein 0.3s; /* Firefox */
+   -webkit-animation: fadein 0.3s; /* Safari and Chrome */
+   -o-animation: fadein 0.3s; /* Opera */
+
+}
 @keyframes fadein {
     from {
         opacity:0;
@@ -43,6 +56,8 @@ body {
         opacity: 1;
     }
 }
+
+
 /* ********** NAV MENU  **********  */
 .overlay {
   height: 100%;
@@ -86,6 +101,7 @@ body {
   top: 20px;
   right: 45px;
   font-size: 60px;
+  transition-duration: 0.4s;
 }
 
 @media screen and (max-height: 450px) {
@@ -97,6 +113,7 @@ body {
     font-size: 40px;
     top: 15px;
     right: 35px;
+    transition-duration: 0.4s;
   }
 }
 
@@ -135,7 +152,7 @@ body {
 
 }
 .nav-burger__menu:hover .burger__line{
-
+  transition-duration: 0.5s;
   background-color:  #9A9494;
 
 }
@@ -158,8 +175,23 @@ body {
   padding-top: 70px;
 
 }
+.full {
+  transition: opacity 400ms ease 0ms;
+}
+.thumb {
+  filter: blur(20px);
+  transform: scale(1.1);
+  transition: visibility 0ms ease 400ms;
+}
 
-
+.imagin {
+  transition-duration: 0.5s;
+   height: 160px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 8% 10%;
+}
+/*
 .imagin {
   background-image: url('../images/bg-cover2.jpg');
   height: 160px;
@@ -167,7 +199,6 @@ body {
   background-size: cover;
   background-position: 8% 10%;
 }
-/*
 .flex_container-content {
   padding-top: 64px;
   display: flex;
@@ -237,7 +268,10 @@ body {
   padding-bottom: 60px;
 
 }
-
+.work__box:hover{
+  box-shadow: 8px 10px 25px -2px rgba(0,0,0,0.27);
+  transition-duration: 1s;
+}
 .work__view {
   padding-top: 20px;
 }
@@ -282,6 +316,7 @@ body {
 }
 
 .work__view>button:hover {
+  transition-duration: 0.5s;
   text-decoration: underline;
   color: red;
 }
@@ -314,12 +349,16 @@ body {
   position: relative;
   background: #f3efe6;
   overflow: hidden;
+  
 }
 
 .meter span {
   display: block;
   height: 100%;
+  
+  
 }
+
 
 .progress {
   background-color: #17BED2;
@@ -451,6 +490,12 @@ float: right;
   vertical-align: middle;
   width: 100%;
 }
+
+.column img:hover{
+  filter: brightness(50%);
+  transition-duration: 0.8s;
+}
+
 /* ************** MODAL ************** */
 .modal {
   position: fixed;
@@ -560,6 +605,7 @@ float: right;
 .modal__right-list-list>li>a:hover {
   text-decoration: underline;
   color: #000;
+  transition-duration: 0.5s;
 }
 
 .modal__right-list>li:last-child {
@@ -578,7 +624,7 @@ float: right;
 }
 
 .progress__box:hover .proggres__info{
-
+   
   display: block;
 }
 
