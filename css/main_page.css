@@ -175,8 +175,23 @@ body {
   padding-top: 70px;
 
 }
+.full {
+  transition: opacity 400ms ease 0ms;
+}
+.thumb {
+  filter: blur(20px);
+  transform: scale(1.1);
+  transition: visibility 0ms ease 400ms;
+}
 
-
+.imagin {
+  transition-duration: 0.5s;
+   height: 160px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 8% 10%;
+}
+/*
 .imagin {
   background-image: url('../images/bg-cover2.jpg');
   height: 160px;
@@ -184,7 +199,6 @@ body {
   background-size: cover;
   background-position: 8% 10%;
 }
-/*
 .flex_container-content {
   padding-top: 64px;
   display: flex;
