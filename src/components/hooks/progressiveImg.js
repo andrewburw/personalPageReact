@@ -17,7 +17,7 @@ function useProgressiveImage({ src, fallbackSrc }) {
   React.useEffect(() => {
     const mainImage = new Image();
     const fallbackImage = new Image();
-
+ 
     mainImage.onload = () => {
       dispatch({ type: 'main image loaded', src});
     };
@@ -29,7 +29,7 @@ function useProgressiveImage({ src, fallbackSrc }) {
     fallbackImage.src = fallbackSrc;
   
   }, [src, fallbackSrc]);
-
+ 
   return currentSrc;
 }
 

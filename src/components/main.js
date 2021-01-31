@@ -37,7 +37,7 @@ const Main = () => {
     fallbackSrc:
       '../images/bg-cover2-min.jpg',
   });
-
+    
   return (
     <div>
       <Menu show={menu} closeMenu={toggleMenu} />
@@ -62,8 +62,8 @@ const Main = () => {
 
       <div className="background__image container">
 
-        <div className={src === '../images/bg-cover2-min.jpg' ? 'imagin thumb' : 'imagin full'}
-          style={{ 'backgroundImage': 'url(' + src + ')' }}
+        <div className={src === undefined ?  'imagin thumb' : 'imagin full'}
+          style={{ 'backgroundImage': 'url(' +  (src === undefined ? '../images/bg-cover2-min.jpg' : src) + ')' }}
         >
         </div>
       </div>

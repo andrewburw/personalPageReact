@@ -23,12 +23,12 @@ const Intro = () => {
   const [menu, toggleMenu] = useState(false);
   const src = useProgressiveImage({
     src:
-      './images/cover.jpg',
+      'images/cover.jpg',
     fallbackSrc:
-      './images/cover-min.jpg',
+      'images/cover-min.jpg',
   });
-
-
+   console.log(src)
+   
   return (
     <div>
       <Menu show={menu} closeMenu={toggleMenu} />
@@ -66,8 +66,8 @@ const Intro = () => {
 
         </main>
 
-        <div className={src === '../images/cover.jpg' ? 'flex_item_right  thumb' : 'flex_item_right  full'}
-          style={{ 'backgroundImage': 'url(' + src + ')' }}
+        <div className={src === undefined ? 'flex_item_right  thumb' : 'flex_item_right  full'}
+          style={{ 'backgroundImage': 'url(' + (src === undefined ? 'images/cover-min.jpg' : src)  + ')' }}
         >
 
         </div>
