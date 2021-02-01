@@ -27,7 +27,7 @@ const Intro = () => {
     fallbackSrc:
       'images/cover-min.jpg',
   });
-   console.log(src)
+
    
   return (
     <div>
