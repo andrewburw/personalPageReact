@@ -20,19 +20,19 @@ const contentMySkilzz = [
   },
   {
     name: 'Scss',
-    precentage: 20,
+    precentage: 80,
     description: 'Gulp environment.',
     color: 'is-info'
   },
   {
     name: 'MongoDB',
-    precentage: 40,
+    precentage: 20,
     description: 'My main DB.Need more practice.',
     color: 'is-primary'
   },
   {
     name: 'mongooseJS',
-    precentage: 40,
+    precentage: 20,
     description: 'My main DB.Need more practice.',
     color: 'is-primary'
   },
@@ -54,10 +54,17 @@ const contentMySkilzz = [
     description: 'Small projects.',
     color: 'is-success'
   },
+  
+  {
+    name: 'Laravel',
+    precentage: 30,
+    description: 'Latest project Planify.',
+    color: 'is-success'
+  },
   {
     name: 'Git',
     precentage: 40,
-    description: 'Need more practice to work in team and large projects.',
+    description: 'Need more practice to work with several branches and large projects.',
     color: 'is-black'
   },
   {
@@ -80,7 +87,7 @@ const contentMySkilzz = [
   {
     name: 'PostGress',
     precentage: 20,
-    description: 'Creating tables, linking tables through pgadmin.'
+    description: 'Administrating DB.'
   },
   {
     name: 'LibreBase',
