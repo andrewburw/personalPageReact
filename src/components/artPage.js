@@ -52,6 +52,7 @@ class Art extends React.Component {
           <img src="../images/lightBox/bike_work.jpg" onClick={this.showModal} alt="andrey art work"/>
           <img  src="../images/lightBox/sea_work.jpg" onClick={this.showModal} alt="andrey art work"/>
           <img  src="../images/lightBox/minimal_workl.jpg" onClick={this.showModal} alt="andrey art work" />
+          <img  src="../images/lightBox/space_work.jpg" onClick={this.showModal} alt="andrey art work" />
         
         </div>
         <div className="column showImgModal">
@@ -62,9 +63,11 @@ class Art extends React.Component {
           <img src="../images/lightBox/photo5.jpg" onClick={this.showModal} alt="andrey art work" />
           <img src="../images/lightBox/photo4.jpg" onClick={this.showModal} alt="andrey art work" />
           <img  src="../images/lightBox/dust_work.jpg" onClick={this.showModal} alt="andrey art work" />
+          <img  src="../images/lightBox/trip_map1.png" onClick={this.showModal} alt="andrey art work" />
+          <img  src="../images/lightBox/trip_map2.png" onClick={this.showModal} alt="andrey art work" />
           <img  src="../images/lightBox/hexagon_work.jpg" onClick={this.showModal} alt="andrey art work" />
           <img  src="../images/lightBox/radio_work.jpg" onClick={this.showModal} alt="andrey art work" />
-          <img  src="../images/lightBox/space_work.jpg" onClick={this.showModal} alt="andrey art work" />
+        
 
         </div>
       </div>

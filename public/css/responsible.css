@@ -72,6 +72,10 @@
   padding: 30px;
   display: flex;
 }
+.modal__big-images img {
+  padding-top: 10px;
+  width:400px;
+}
 /* ************************** CONTACTS PAGE **************** */
 .contacts__container {
   font-family: 'Open Sans', sans-serif;
@@ -276,6 +280,12 @@ flex-wrap: wrap;
     flex: 50%;
     max-width: 50%;
   }
+  .modal__big-images img {
+    padding-top: 10px;
+    width:200px;
+  
+  }
+  
 }
 
 @media screen and (max-width: 700px) {

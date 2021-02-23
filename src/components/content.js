@@ -4,28 +4,41 @@ const contentMyExper = [
   {   id: 1,
     modalTitle: 'Web Project',
     projectName: 'Planify',
-    projectSubTitle: 'Web Project.',
+    projectSubTitle: 'Full Stack Project.',
+    logoImage: '/personalpage/images/planify_logo.png',
     pictSRC: '/personalpage/images/works_img/planify.png',
-    projectDescription: 'Fullstack project - More info soon...',
+    projectDescription: `Planify is interactive calendar.You can create and share calendars. 
+    You can share the time with friends or colleagues.
+     You can set the time for using things (scooter, bike, etc.). Planning with Planify is simple and perfect.`,
     technologyDescription:'none',
-    technologyList: ['Figma','Laravel','React','Gulp','Scss','React hooks','PHP',],
-    creationDescription:`My biggest and most difficult project at the moment.`,
+    projectImage1: '/personalpage/images/lightBox/planify_1.png',
+    projectImage2: '/personalpage/images/lightBox/planify_2.png',
+    projectImage3: '/personalpage/images/lightBox/planify_3.png',
+    projectImage4: '/personalpage/images/lightBox/planify_5.png',
+    technologyList: ['Figma','Laravel','React','Gulp','Scss','React hooks','PHP','mySQL'],
+    creationDescription:`In implementing this project, I explored a lot of new interesting information as developer. What I liked in this project: 
+    from a white sheet and ideas to a really working service.Drawn from scratch in Figma. No css libraries are used for the frontend.`,
     links: {
       github: 'https://github.com/andrewburw/planify',
       projectSite: '/'
     },
-    progress: 20
+    progress: 70
 
   },
    {   id: 10,
-       modalTitle: 'Web Project',
+       modalTitle: 'Full Stack Project',
        projectName: 'Trip Map',
-       projectSubTitle: 'Web Project.',
+       logoImage: '/personalpage/images/trip_map.png',
+       projectSubTitle: 'Full Stack Project',
        pictSRC: '/personalpage/images/works_img/trip_map.png',
        projectDescription: 'Fullstack project - App for drawing maps of your adventures.You can draw,comment and share your trip route.',
        technologyDescription:'M.E.R.N',
+       projectImage1: '/personalpage/images/lightBox/trip_map1.png',
+       projectImage2: '/personalpage/images/lightBox/trip_map2.png',
+       projectImage3: '/personalpage/images/lightBox/trip_map3.png',
+       projectImage4: '/personalpage/images/lightBox/trip_map4.png',
        technologyList: ['NodeJS','MongoDB','Express','ReactJS','Bulma Framework','Liflet.js'],
-       creationDescription:`My biggest and most difficult project at the moment.`,
+       creationDescription:`Interesting project.I really use it in trip life.Collecting trips.`,
        links: {
          github: 'https://github.com/andrewburw/Trip-Map',
          projectSite: 'https://tripmap.herokuapp.com/'
@@ -42,9 +55,8 @@ const contentMyExper = [
            projectDescription: 'Full Stack apllication -  Tank App is comunity of low-prices.Do not refuel at the highest price! Use the map to find the best gas station prices near you. .',
            technologyDescription:'I chose this development environment (M.E.R.N) as my main area of development as a developer. For more effective training, it was necessary to develop a more complex application.',
            technologyList: ['NodeJS','MongoDB','Express','ReactJS','Bootstrap framework','Liflet js'],
-           creationDescription:`In implementing this project, I explored a lot of new interesting information as developer. What I liked in this project: from a white sheet and ideas to a really working service.
-
-                      `,
+           creationDescription:`In implementing this project, I explored a lot of new interesting information as developer.
+            What I liked in this project: from a white sheet and ideas to a really working service.`,
            links: {
              github: 'https://github.com/andrewburw/tank-app',
              projectSite: 'https://tankappplatvia.herokuapp.com/'
