@@ -322,8 +322,45 @@ body {
   color: red;
 }
 /* ***************** SKILZZ PAGE ********************** */
+.skillz__sort-section{
+  text-align: center;
+  display: flex;
+ 
+  justify-content: center ;
+  
+}
+.skilzz__sort{
+  padding-top: 20px;
+  list-style-type: none;
+  display: flex;
+  font-size: 16px;
+ 
+}
+.skilzz__sort-item {
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 8px;
+  color:  #9A9494;
+  cursor: pointer;
+}
+.skilzz__sort-item:hover {
+  transition-duration: 0.5s;
+  transform: translateY(2px);
+
+}
+.slilzz__sort-selected {
+  color: white;
+  background-color: black;
+
+}
+.skilzz__sort-item + .skilzz__sort-item {
+  padding-left: 10px;
+}
+
+
 /* ********* PROGRESS BOX ********** */
 .skilzz__section {
+  padding-top: 20px;
   padding-right: 60px;
   padding-bottom: 60px;
 }
@@ -710,4 +747,22 @@ float: right;
   padding-top: 50px;
   color:black;
   text-align: center;
+}
+
+/* FOOOTER ICONS */
+.fab-cust:hover {
+  cursor: pointer;
+  color: #9A9494;
+}
+.fab-cust:hover {
+  cursor: pointer;
+  color: #9A9494;
+ 
+}
+.fa-linkedin {
+  padding-left: 5px;
+  color: black;
+}
+.fa-github{
+  color: #000;
 }

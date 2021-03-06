@@ -35,13 +35,15 @@ class About extends React.Component {
     <li>Gender:</li>
     <li>Place of Birth:</li>
     <li>Language:</li>
+    <li>Location:</li>
   </ul>
 </div>
           <div className="about__list">
             <ul className="about__list-list2 about_li">
               <li>Male.</li>
-              <li>Riga.</li>
+              <li>Riga, Latvia</li>
               <li>RU,LV,EN.</li>
+              <li>Latvia.</li>
             </ul>
         </div>
            </div>

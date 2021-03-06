@@ -7,20 +7,14 @@ import ArtPage from './artPage';
 import ContactsPage from './contactsPage';
 import Menu from './menu';
 import useProgressiveImage from './hooks/progressiveImg';
-import {
-
-  Switch,
-  Route
-} from "react-router-dom";
+import {Switch, Route} from "react-router-dom";
 /* *************************************************************
 |
 |
 |                      main.js file
 |
 |       Main page in react hooks style,
-|      
-|
-|   
+|       
 |      
 |      More info: https://andrewburw.github.io/personalpage/
 |
@@ -79,6 +73,8 @@ const Main = () => {
 
 
       <div className="footer">
+      <a href="https://github.com/andrewburw"><i className="fab fa-github fab-cust fa-3x"></i></a>
+      <a href="https://www.linkedin.com/in/andrejs-burackovs-3219641b8/"><i className="fab fab-cust fa-linkedin fa-3x"></i></a>
         <p>® 2020 Andrew. All Rights Reserved.</p>
       </div>
 
