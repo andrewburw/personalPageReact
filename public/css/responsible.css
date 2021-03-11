@@ -19,7 +19,7 @@
     background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
   }
   .main-slogan>h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-style: normal;
     font-weight: 100;
     font-size: 30px;
@@ -78,7 +78,7 @@
 }
 /* ************************** CONTACTS PAGE **************** */
 .contacts__container {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   display: flex;
   padding-left: 140px;
 }
@@ -151,7 +151,7 @@ flex-wrap: wrap;
     background-position: 8% 0%;
 }
  .main-slogan>h1 {
-   font-family: 'Open Sans', sans-serif;
+  font-family: 'DM Sans', sans-serif;
    font-style: normal;
    font-weight: 100;
    font-size: 30px;
@@ -209,7 +209,7 @@ flex-wrap: wrap;
 }
 /* ********************* CONTACTS PAGE **************** */
 .contacts__container {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'DM Sans', sans-serif;
 
   padding-left:0px;
 }
