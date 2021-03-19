@@ -31,7 +31,7 @@ const Contacts = () => {
             <div className="left__contacts">
               <div className="contacts__left-one">
                 <h1>Location <i className="fas fa-map-marker-alt"></i></h1>
-                <p>Riga</p>
+                <p>Riga, Latvia</p>
 
               </div>
               <div className="contacts__left-two">

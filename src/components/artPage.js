@@ -46,6 +46,7 @@ class Art extends React.Component {
         <img src="../images/lightBox/planify_1.png" onClick={this.showModal} alt="andrey art work" />
         <img src="../images/lightBox/planify_2.png" onClick={this.showModal} alt="andrey art work" />
         <img src="../images/lightBox/planify_3.png" onClick={this.showModal} alt="andrey art work" />
+        <img src="../images/lightBox/planify_8.png" onClick={this.showModal} alt="andrey art work" />
           <img  src="../images/lightBox/gg_work.png" onClick={this.showModal} alt="andrey art work" />
           <img src="../images/lightBox/gg_blue.jpg" onClick={this.showModal} alt="andrey art work" />
           <img src="../images/lightBox/photo3.jpg" onClick={this.showModal} alt="andrey art work"/>

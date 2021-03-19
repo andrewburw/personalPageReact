@@ -1,7 +1,7 @@
 {
   "name": "my-page",
   "version": "0.1.0",
-  "homepage": "https://andrewburw.github.io/personalpage/",
+  "homepage": "https://andrejsb.dev",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",

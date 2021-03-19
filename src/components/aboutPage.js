@@ -21,7 +21,7 @@ class About extends React.Component {
 
 
 
-      <div className="author__image"><img src="/personalpage/images/myself.jpg " height="85" width="85" alt="Andrew Burw" /></div>
+      <div className="author__image"><img src="/images/myself.jpg " height="85" width="85" alt="Andrew Burw" /></div>
 
       <div className="about__info container">
        <p>Hi! A'm Andrew Results-oriented  Fullstack Developer dedicated to creating and optimizing interactive, user-friendly, and feature-rich websites. Leverage analytical skills and strong attention to detail in order to deliver original and efficient web solutions, 

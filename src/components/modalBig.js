@@ -41,6 +41,7 @@ const Modal = ({ isShowing, hide, data }) => {
               <img src={data.projectImage2} alt="project logo"  />
               <img src={data.projectImage3} alt="project logo" />
               <img src={data.projectImage4} alt="project logo" />
+             {data.projectImage5 ?  <img src={data.projectImage5} alt="project logo" /> :''}
               </div>
               <p>{data.creationDescription}</p>
 

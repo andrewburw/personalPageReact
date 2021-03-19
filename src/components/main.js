@@ -8,6 +8,7 @@ import ContactsPage from './contactsPage';
 import Menu from './menu';
 import useProgressiveImage from './hooks/progressiveImg';
 import {Switch, Route} from "react-router-dom";
+import Logo from './../custom/logo.svg';
 /* *************************************************************
 |
 |
@@ -40,7 +41,7 @@ const Main = () => {
 
 
           <div className="logo">
-            <p>A n d r e w</p>
+          <img width="100" src={Logo} alt="logo" />
           </div>
 
           <div className="nav-burger__menu" style={{ "cursor": "pointer" }} onClick={toggleMenu}>
