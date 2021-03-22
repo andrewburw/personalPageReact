@@ -21,7 +21,7 @@ const contentMyExper = [
     from a white sheet and ideas to a really working service.Drawn from scratch in Figma. No css libraries are used for the frontend.`,
     links: {
       github: 'https://github.com/andrewburw/planify',
-      projectSite: '/'
+      projectSite: 'https://planifyy.herokuapp.com/'
     },
     progress: 70
 
