@@ -4,7 +4,9 @@
     width: 100%;
 
   }
-
+  .logo_img-white{
+    display: none;
+  }
   .flex_item_right {
     flex: 1;
   /*  background-image: url('../images/cover.jpg'); */
@@ -137,6 +139,9 @@ flex-wrap: wrap;
 
 }
 @media (max-width: 900px) {
+  .logo_img-black{
+    display: none;
+  }
   .container{
     padding: 0 25px;
   }
